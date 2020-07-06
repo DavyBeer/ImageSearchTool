@@ -1,0 +1,7 @@
+As someone with limited bandwidth, I want to be able to look up images without ads bogging down my internet speeds
+
+As an indecisive person, I want the results of my searches to be limited to the most relevant images
+
+As someone on mobile, I want the website format to change to best fit my screen
+
+As someone with deadlines, I would like to find the images I want with less time wasted
