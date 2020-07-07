@@ -3,6 +3,7 @@ body {
     position: relative;
     min-height: 100vh;
     background-color: #808080;
+    font-family: 'Merienda One', cursive;
 }
 
 header {
