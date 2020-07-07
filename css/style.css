@@ -6,19 +6,32 @@ body {
   font-family: 'Merienda One', cursive;
 }
 
-header {
+.container {
   background-color: #666666;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  max-width: 100%;
 }
 
-h1 {
-  display: inline-block;
-}
-
-a {
-  display: inline-block;
+@media (min-width: 321px) {
+  [class*='col-'] {
+    display: inline-block;
+  }
+  .col-3-8 {
+    padding-left: 10%;
+    padding-right: 40%;
+  }
+  .col-6-8 {
+    padding-right: 20px;
+  }
+  .col-7-8 {
+    padding-right: 20px;
+  }
+  .col-8-8 {
+    padding-right: 20px;
+  }
 }
 
 footer {
