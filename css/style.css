@@ -16,6 +16,10 @@ body {
   margin-bottom: 20px;
 }
 
+.submit {
+  text-align: center;
+}
+
 @media (min-width: 736px) {
   [class*='col-'] {
     display: inline-block;
