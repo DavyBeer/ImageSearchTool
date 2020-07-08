@@ -21,7 +21,7 @@ body {
 
 
 
-@media (min-width: 601px) {
+@media (min-width: 736px) {
     [class*='col-'] {
         display: inline-block;
     }
@@ -50,7 +50,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 735px) {
     [class*='col-'] {
         text-align: center;
     }
