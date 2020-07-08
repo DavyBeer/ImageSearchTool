@@ -48,8 +48,11 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: ltr;
             flex-direction: ltr;
-    margin-left: 20%;
-    margin-right: 10%;
+    margin-left: 35%;
+    margin-right: 20%;
+  }
+  #form2 {
+    margin-left: 10%;
   }
 }
 
@@ -76,6 +79,19 @@ body {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
+  }
+  .forms {
+    text-align: center;
+  }
+  #form1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #form2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 

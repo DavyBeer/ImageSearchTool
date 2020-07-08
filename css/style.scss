@@ -39,8 +39,11 @@ body {
         display: flex;
         align-items: center;
         flex-direction: ltr;
-        margin-left: 20%;
-        margin-right: 10%;
+        margin-left: 35%;
+        margin-right: 20%;
+    }
+    #form2 {
+        margin-left: 10%;
     }
 }
 
@@ -59,6 +62,15 @@ body {
     }
     .col-8-8 {
         order: 4;
+    }
+    .forms {
+        text-align: center;
+    }
+    #form1 {
+        order: 1;
+    }
+    #form2 {
+        order: 2;
     }
 }
 
