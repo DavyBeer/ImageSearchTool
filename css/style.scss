@@ -34,13 +34,13 @@ body {
     }
      .supportLinks {
          margin-right: 10px;
-     }
-    .col-4-8 {
-        margin-left: 30%;
-        clear: right;
     }
-    .col-5-8 {
-        margin-left: 15%
+    .forms {
+        display: flex;
+        align-items: center;
+        flex-direction: ltr;
+        margin-left: 20%;
+        margin-right: 10%;
     }
 }
 
@@ -59,12 +59,6 @@ body {
     }
     .col-8-8 {
         order: 4;
-    }
-    .col-4-8 {
-        order: 1;
-    }
-    .col-5-8 {
-        order: 2;
     }
 }
 
