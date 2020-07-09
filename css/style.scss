@@ -47,6 +47,16 @@ body {
     #form2 {
         margin-left: 10%;
     }
+    #inner {
+        align-items: center;
+        margin: 15%;
+        max-width: 80%;
+        img {
+            padding: 0px;
+            width: 300px;
+            border: solid 5px;
+        }
+    }
 }
 
 @media (max-width: 735px) {
