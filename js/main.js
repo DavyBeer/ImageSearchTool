@@ -14,7 +14,7 @@ function generateCode () {
         console.log("Success! Got data!!", response);
         var pics = response.data
         for (i in pics) {
-            $('.inner').append("<img src="+pics[i].images.original.url+"/>");
+            $('#inner').append("<img class='pic' src="+pics[i].images.original.url+"/>");
         };
     });
 };
