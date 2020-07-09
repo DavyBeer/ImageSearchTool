@@ -1,10 +1,14 @@
 $headFoot: rgb(102, 102, 102);
 $bodyColor: rgb(128, 128, 128);
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0px;
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh - 70px);
     background-color: $bodyColor;
     font-family: 'Merienda One', cursive;
 }
@@ -89,7 +93,6 @@ body {
 footer {
     background-color: $headFoot;
     text-align: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    height: 50px;
 }
