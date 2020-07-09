@@ -88,6 +88,17 @@ html, body {
     #form2 {
         order: 2;
     }
+    #inner {
+        align-items: center;
+        margin: 15%;
+        max-width: 80%;
+        img {
+            width: 300px;
+            height: 300px;
+            border: solid 2em;
+            border-color: $bodyColor;
+        }
+    }
 }
 .footer {
     background-color: $headFoot;
