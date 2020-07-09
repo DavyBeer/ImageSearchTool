@@ -6,42 +6,44 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <!--Header-->
-        <header class="container">
-                <div class="row">
-                    <h1 class="col-3-8">Steven's Searches</h1>
-                    <div class="supportLinks">
-                        <a href="" class="col-6-8"><h3>Search</h3></a>
-                        <a href="" class="col-7-8"><h3>About</h3></a>
-                        <a href="" class="col-8-8"><h3>Contact</h3></a>
+        <div class="wrapper">
+            <!--Header-->
+            <header class="container">
+                    <div class="row">
+                        <h1 class="col-3-8">Steven's Searches</h1>
+                        <div class="supportLinks">
+                            <a href="" class="col-6-8"><h3>Search</h3></a>
+                            <a href="" class="col-7-8"><h3>About</h3></a>
+                            <a href="" class="col-8-8"><h3>Contact</h3></a>
+                        </div>
                     </div>
-                </div>
-        </header>
+            </header>
 
-        <!--Input Area-->
-        <div class="forms">
-            <form id="form1">
-                <label for="query">Image Search</label><br>
-                <input type="text" id="query" name="query" >
-            </form>
-            <form id="form2">
-                <label for="quantity"># of images (0-30)</label><br>
-                <input type="number" id="quantity" name="quantity" min="1" max="30">
-            </form>
+            <!--Input Area-->
+            <div class="forms">
+                <form id="form1">
+                    <label for="query">Image Search</label><br>
+                    <input type="text" id="query" name="query" >
+                </form>
+                <form id="form2">
+                    <label for="quantity"># of images (0-30)</label><br>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </form>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="submit">
+                <button type="button" id="submitbutton" onClick="generateCode()">Submit</button>
+                <div id="display"></div>
+            </div>
+
+            
+            <!--Image Area-->
+            <div id="inner"></div>
+
         </div>
-
-        <!-- Submit Button -->
-        <div class="submit">
-            <button type="button" id="submitbutton" onClick="generateCode()">Submit</button>
-            <div id="display"></div>
-        </div>
-
-        
-        <!--Image Area-->
-        <div id="inner"></div>
-
         <!--Footer-->
-        <footer>
+        <footer class="footer">
             <div>
                 Citation image
             </div>

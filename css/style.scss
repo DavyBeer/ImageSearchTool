@@ -1,18 +1,19 @@
 $headFoot: rgb(102, 102, 102);
 $bodyColor: rgb(128, 128, 128);
-
 html {
     height: 100%;
 }
-
-body {
-    margin: 0px;
+html, body {
+    margin: 0;
     position: relative;
-    min-height: calc(100vh - 70px);
+    height: 100%;
     background-color: $bodyColor;
     font-family: 'Merienda One', cursive;
 }
-
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
 .container {
     background-color: $headFoot;
     padding-right: 0px;
@@ -22,11 +23,9 @@ body {
     max-width: 100%;
     margin-bottom: 20px;
 }
-
 .submit {
     text-align: center;
 }
-
 @media (min-width: 736px) {
     [class*='col-'] {
         display: inline-block;
@@ -58,11 +57,12 @@ body {
         img {
             padding: 0px;
             width: 300px;
+            height: 300px;
             border: solid 5px;
+            border-color: $bodyColor;
         }
     }
 }
-
 @media (max-width: 735px) {
     [class*='col-'] {
         text-align: center;
@@ -89,8 +89,7 @@ body {
         order: 2;
     }
 }
-
-footer {
+.footer {
     background-color: $headFoot;
     text-align: center;
     width: 100%;
